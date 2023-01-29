@@ -12,7 +12,7 @@ class BookGridViewWidget extends StatelessWidget {
       this.controller})
       : super(key: key);
   final ScrollController? controller;
-  final TodoProvider? provider;
+  final TodoProvider provider;
   final Future<List<BookModel>> bookListFuture;
 
   @override
